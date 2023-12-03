@@ -12,7 +12,7 @@ Ter o Git instalado em seu computador <br>
 - No VsCode, crie o arquivo **.gitlab-ci.yml
 
 - E coloque o script abaixo:<br>
-    ´´´
+    ```
     stages:
      - hello_world
 
@@ -20,18 +20,16 @@ Ter o Git instalado em seu computador <br>
      stage: hello_world
      script:
      - echo "Hello, World!"
-    ´´´
+    ```
 - Temos um estágio chamado hello_world com um trabalho chamado hello_world_job. Quando este pipeline é acionado, ele executará um script que exibirá "Hello, World!".
 
 - Faça um push para seu repositório GitLab com esse novo arquivo **.gitlab-ci.yml**:<br>
 
-    ´´´
+    ```
     git remote add origin <o_caminho_do_seu_repositorio_no_gitlab>
-    ´´´
 
-    ´´´
     git push -u origin main
-    ´´´
+    ```
 
 - Acesse o GitLab: 
 - Acesse seu projeto no GitLab.<br>
@@ -45,7 +43,7 @@ Obs.: Habilite a configuração **Auto DevOps enable**<br>
 
 - Repita o passo a passo do desafio 3 acima e no VsCode crie o arquivo **.gitlab-ci.yml** com o seguinte script:
 
-    ´´´
+    ```
      - deploy
 
     deploy:
@@ -55,19 +53,17 @@ Obs.: Habilite a configuração **Auto DevOps enable**<br>
         - apt-get install -y nginx
         - service nginx start
         - nginx -v
-    ´´´
+    ```
 
 - Faça um push para seu repositório GitLab:
 
-    ´´´
+    ```
     git add .
-    ´´´
-    ´´´
+    
     git commit -m "Adicionar arquivo .gitlab-ci.yml"
-    ´´´
-    ´´´
+    
     git push origin main
-    ´´´
+    ```
 
 - Acesse o GitLab: 
 - Acesse seu projeto no GitLab.<br>
