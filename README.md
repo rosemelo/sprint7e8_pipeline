@@ -68,5 +68,5 @@ Obs.: Habilite a configuração **Auto DevOps enable**<br>
 - Acesse o GitLab: 
 - Acesse seu projeto no GitLab.<br>
 Obs.: Habilite a configuração **Auto DevOps enable**<br>
-- Vá para a seção **CI/CD´** e clique em visualizar<br>
+- Vá para a seção **CI/CD** e clique em visualizar<br>
 - Acompanhe o Progresso: <br>
