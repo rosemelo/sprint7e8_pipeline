@@ -9,7 +9,7 @@ Ter o Git instalado em seu computador <br>
 - Em configurações do projeto, você pode inicializar com um README
 - Clique em criar projeto
 - No seu computador, crie uma pasta. Clique em cima dessa pasta com o botão direito e escolha abrir com Code
-- No VsCode, crie o arquivo **.gitlab-ci.yml
+- No VsCode, crie o arquivo **.gitlab-ci.yml**
 
 - E coloque o script abaixo:<br>
     ```
